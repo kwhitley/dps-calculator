@@ -61,6 +61,8 @@
     font-style: normal;
     font-size: calc(0.7 * var(--input-font-size));
     margin-bottom: -0.2em;
+    user-select: none;
+    cursor: pointer;
   }
 
   span {
@@ -69,6 +71,7 @@
   }
 </style>
 
+<!-- MARKUP -->
 <main>
   <label>
     <span>Crit Rate</span>
